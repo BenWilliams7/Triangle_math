@@ -7,42 +7,30 @@
     <script src="js/scripts.js" type="text/javascript"></script>
     <title>Triangle</title>
   </head>
+  <!-- <img src="img/moon.jpg" alt="triangle black/white art" /> -->
   <body>
+    <img class="launch" src="img/moon.jpg" alt="Launch Photo">
     <div class="container">
      <h1>What kind of triangle do I have?</h1>
      <div>
-       <form id="form">
+       <form id="form" class="form-inline">
          <div class="form-group">
-           <label for="side-a">Length of side A</label>
-           <input id="side-a" class="form-control" type="text">
+           <label for="side-a" ></label>
+           <input id="side-a" class="form-control" type="text" placeholder="Length of side A">
         </div>
          <div class="form-group">
-           <label for="side-b">Length of side B</label>
-           <input id="side-b" class="form-control" type="text">
+           <label for="side-b" ></label>
+           <input id="side-b" class="form-control" type="text" placeholder="Length of side B">
          </div>
          <div class="form-group">
-           <label for="side-c">Length of side C</label>
-           <input id="side-c" class="form-control" type="text">
+           <label for="side-c" ></label>
+           <input id="side-c" class="form-control" type="text" placeholder="Length of side C">
          </div>
          <button type="submit" class="btn">Show me what kind of triangle!</button>
         </form>
-      </div>  <!-- close of form entry  -->
-      <!-- <div class="container"> -->
+      </div>
         <div class="answers">
-          <p id=tri-1>
-            Equilateral!
-          </p>
-          <p id="tri-2">
-            Isoceles!
-          </p>
-          <p id="tri-3">
-            Scalene!
-          </p>
-          <p id=noway>
-            Not a triangle :(
-          </p>
         </div>
 
-      <!-- </div> -->
   </body>
 </html>
