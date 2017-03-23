@@ -11,7 +11,7 @@ $(document).ready(function(){
       $("#tri-1").show();
     } else if ((a === b) || (b === c) || (a === c)) {
       $("#tri-2").show();
-    } else if ((a + b) < c || (b + c) < a || (a + c) < b) {
+    } else if (((a + b) < c) || ((b + c) < a) || ((a + c) < b)) {
       $("#noway").show();
     } else {
       $("#tri-3").show();
